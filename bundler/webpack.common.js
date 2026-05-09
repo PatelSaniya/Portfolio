@@ -12,6 +12,10 @@ module.exports = {
         path: path.resolve(__dirname, '../dist')
     },
     devtool: 'source-map',
+    performance:
+    {
+        hints: false
+    },
     plugins:
     [
         new CopyWebpackPlugin({
